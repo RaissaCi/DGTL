@@ -164,7 +164,7 @@ nav {
 	width: 100%;
 	display: flex;
 	background-image: url(../img/temporary.jpg);
-	background-attachment: initial;
+	background-attachment: fixed;
 	background-size: cover;
 }
 
