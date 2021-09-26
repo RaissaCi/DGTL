@@ -61,10 +61,28 @@ h1, h2 {
 	text-align: center;
 }
 
+/* LOGO */
+
+
+#logo {
+	display: block;
+	width: 30%;
+	height: 10vh;
+	margin: 0 5%;
+	position: absolute;
+	background-image: url(../img/logo-black.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	filter: grayscale(100%);
+	z-index: 1000;
+}
+
 /* MENU */
 nav {
 	height: 10vh;
 	background-color: rgba(255, 204, 0, 1);
+	position: relative;
 }
 
 .menu {
@@ -76,7 +94,7 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	margin-left: auto;
-	padding-bottom: 15vh;
+	padding: 0;
 }
 
 .menu a {
@@ -313,10 +331,18 @@ nav {
 	.col-lg-1 {width: 8.332%;}
 }
 
+/* MOBILE */
+
+@media screen and (max-)
 
 /* TABLET*/
 
 @media screen and (min-width: 768px) {
+
+	.menu {
+		padding-bottom: 15vh;
+	}
+}
 
 /* GRID */
 .row {
@@ -336,6 +362,8 @@ h1, h2 {
 p {
 	font-size: 1em;
 }
+
+/* MENU */
 
 /* HERO */
 .hero-section h1 {
@@ -357,7 +385,7 @@ p {
 
 /* DESKTOP */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 
 
 }
