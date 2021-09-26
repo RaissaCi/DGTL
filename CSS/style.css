@@ -66,9 +66,9 @@ h1, h2 {
 
 #logo {
 	display: block;
-	width: 30%;
-	height: 10vh;
-	margin: 0 5%;
+	width: 42%;
+	height: 8vh;
+	margin: 1vh 5% 0;
 	position: absolute;
 	background-image: url(../img/logo-black.png);
 	background-size: contain;
@@ -103,6 +103,9 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+
+	/* MENU MOBILE */
+
 	.menu {
 		position: fixed;
 		background-color: rgb(255, 204, 0);
@@ -171,6 +174,7 @@ nav {
 .hero-section .wrapper {
 	margin: auto;
 	text-align: center;
+	padding: 0 10px;
 }
 
 .hero-section h1 {
@@ -364,6 +368,13 @@ p {
 
 /* MENU */
 
+#logo {
+		width: 30%;
+		height: 6vh;
+		margin: 2vh 5% 0;
+		background-position: left;
+	}
+
 /* HERO */
 .hero-section {
 	background-attachment: fixed;
@@ -371,6 +382,10 @@ p {
 
 .hero-section h1 {
 	font-size: 3em;
+}
+
+.hero-section .wrapper {
+	padding: 0 10px;
 }
 
 /* WHAT */
