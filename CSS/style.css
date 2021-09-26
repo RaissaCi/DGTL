@@ -164,7 +164,7 @@ nav {
 	width: 100%;
 	display: flex;
 	background-image: url(../img/temporary.jpg);
-	background-attachment: fixed;
+	background-attachment: initial;
 	background-size: cover;
 }
 
@@ -365,6 +365,10 @@ p {
 /* MENU */
 
 /* HERO */
+.hero-section {
+	background-attachment: fixed;
+}
+
 .hero-section h1 {
 	font-size: 3em;
 }
