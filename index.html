@@ -28,8 +28,6 @@
 } 
 </script>
 
-
-
 <nav>
 	<a href="index.php" id="logo"></a>
 	<div class="navbar" id="navbar" onclick="myFunction()">
@@ -37,11 +35,14 @@
 		<div class="line" id="line2"></div>
 	</div>
 	<ul class="menu" id="menu">
-		<li><a href="index.php">Home</a></li>
-		<li><a href="index.php">Chi Siamo</a></li>
-		<li><a href="index.php">Servizi</a></li>
+		<li><a href="index.php">Home</a><div class="pic"></div></li>
+		<li><a href="#who">Chi Siamo</a><div class="pic"></div></li>
+		<li><a href="#servizi">Servizi</a><div class="pic"></div></li>
+		<!--<li><button>Contatti</button></li>-->
+		<li><a href="index.html" class="button">Contatti</a></li>
 	</ul>
 </nav>
+
 
 
 </header>
@@ -60,7 +61,7 @@
 	<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Voluptates ea suscipit cum, dicta aliquid culpa sint nobis adipisci! A beatae ex perferendis quibusdam alias tenetur quos consequatur odio eaque voluptatibus.</p>
 </div>
 
-<div class="who">
+<div class="who" id="who">
 	<div class="row">
 		<div class="col who_img"></div>
 		<div class="col col-text">
@@ -82,7 +83,7 @@
 	</div>
 </div>
 
-<div class="services centered-div">
+<div class="services centered-div" id="servizi">
 	<h1>SERVIZI</h1>
 	<p>Il nostro team è pronto a darti una mano!<br>Ogni servizio viene ideato e costruito su misura per te, in maniera da soddisfare le peculiari esigenze del tuo mercato</p>
 
